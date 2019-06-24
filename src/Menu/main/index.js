@@ -1,4 +1,4 @@
-const { app, BrowserWindow, Menu } = require('electron');
+const { app, BrowserWindow, Menu, MenuItem } = require('electron');
 
 let template = [{
   label: '操作',
@@ -19,7 +19,7 @@ const menuItem = new MenuItem({
     role: 'minimize'
   });
   menu.append(menuItem); 
-  
+
 Menu.setApplicationMenu(menu);
 
 function createWindow () {   
