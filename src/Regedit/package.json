@@ -1,0 +1,15 @@
+{
+  "name": "Electron-Regedit-Demo",
+  "version": "1.0.0",
+  "description": "Electron使用注册表demo",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SugarTeam/Electron-Samples.git"
+  },
+  "author": "SugarTeam",
+  "license": "ISC",
+  "dependencies": {
+    "regedit": "^3.0.2"
+  }
+}
